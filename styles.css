@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -14,26 +15,45 @@ img{
 
 h1{
     margin: 10px;
+    font-family: Arial;
     font-size: xx-large;
 }
 
 p{
     margin: 10px;
+    font-family: Arial;
     font-size: larger;
+}
+
+section.channel_info{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 div.box{
     width: 300px;
     height: 300px; 
-    border:10px;color:whitesmoke;
+    border:5px solid;color:whitesmoke;
     margin: 10px;
     padding: 10px;
+    font-family: Arial;
     font-size: large;
 }
+ 
+div.box img{
+    width: 100%;
+    height: 100%;
+}
+
 .box1{
+    background-color: #5cb24e;
+}
+
+.box2{
     background-color: #7bab0a;
 }
-.box2{
+.box3{
     background-color: #45a854
 }
 
@@ -42,5 +62,6 @@ footer{
     background-color:#669966;
     border:10px;color: whitesmoke;
     padding: 10px;
+    font-family: Arial;
     font-size: large;
 }
