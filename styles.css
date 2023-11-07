@@ -10,7 +10,7 @@ body{
 }
 
 main{
-    min-height:50vh;
+    min-height:100vh;
 }
 
 img{
@@ -49,11 +49,11 @@ div.box_wrapper{
 div.box img{
     width: 100%;
     height: 100%;
-    background-color: #5cb24e;
+    background-color: #7bab0a;
 }
 
 .box2{
-    background-color: #7bab0a;
+    background-color: #5cb24e;
 }
 .box3{
     background-color: #45a854
