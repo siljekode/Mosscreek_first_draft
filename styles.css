@@ -9,6 +9,10 @@ body{
     color:whitesmoke
 }
 
+main{
+    min-height:100vh;
+}
+
 img{
     width: 100vw;
 }
@@ -56,6 +60,8 @@ div.box img{
 .box3{
     background-color: #45a854
 }
+
+
 
 footer{
     height: 100px;
